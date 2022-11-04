@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T08:33:06.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QWuit9uvKenuHaMaGZmU" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T08:42:48.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QKMBlE3v3o2m2JOV7AGp" version="20.5.1" type="github">
   <diagram id="vHHTRy6oj6F_zs_hj-PX" name="architecture">
-    <mxGraphModel dx="1422" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="694" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,22 +42,13 @@
           <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7K3nJ44wm9ZJKXJSP0wh-21" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;Logbackの主な構成クラス&lt;/h1&gt;&lt;p&gt;以下3つのクラスが協調して動作する。&lt;/p&gt;&lt;p&gt;メッセージのタイプとレベルに応じて記録できる。&lt;/p&gt;&lt;p&gt;実行時に形式と記録先が制御される。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="560" height="260" as="geometry" />
+          <mxGeometry x="480" y="40" width="730" height="360" as="geometry" />
         </mxCell>
         <mxCell id="7K3nJ44wm9ZJKXJSP0wh-23" value="logback-classic" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="500" y="180" width="180" height="100" as="geometry" />
+          <mxGeometry x="500" y="180" width="180" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Logger&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LoggerContext&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="210" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-24" value="logback-core" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="690" y="180" width="330" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Appender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="210" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Layout&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="870" y="210" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7K3nJ44wm9ZJKXJSP0wh-25" value="&lt;span style=&quot;&quot;&gt;汎用目的のため、loggerという概念を持たない。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
@@ -66,6 +57,27 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="290" as="sourcePoint" />
             <mxPoint x="190" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="810" y="180" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-24" value="logback-core" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="7K3nJ44wm9ZJKXJSP0wh-27">
+          <mxGeometry width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Appender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="7K3nJ44wm9ZJKXJSP0wh-27">
+          <mxGeometry x="30" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Layout&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="7K3nJ44wm9ZJKXJSP0wh-27">
+          <mxGeometry x="180" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Logger&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-29" value="アタッチ" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-28" target="7K3nJ44wm9ZJKXJSP0wh-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="430" as="sourcePoint" />
+            <mxPoint x="600" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
