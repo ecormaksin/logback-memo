@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T08:19:38.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="64CgnAfcSbTfTTWEEG2j" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T08:20:52.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ewbidLUymUK6Zf5HA8S6" version="20.5.1" type="github">
   <diagram id="vHHTRy6oj6F_zs_hj-PX" name="architecture">
-    <mxGraphModel dx="981" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-19" value="モジュール構成" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;container=0;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="35" y="40" width="420" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="7K3nJ44wm9ZJKXJSP0wh-11" value="Logbackの主な構成クラス" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;container=0;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="595" y="120" width="470" height="120" as="geometry" />
+          <mxGeometry x="480" y="40" width="470" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7K3nJ44wm9ZJKXJSP0wh-1" value="logback-core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="260" width="200" height="40" as="geometry" />
@@ -42,13 +45,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7K3nJ44wm9ZJKXJSP0wh-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Logger&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="160" width="140" height="60" as="geometry" />
+          <mxGeometry x="500" y="80" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7K3nJ44wm9ZJKXJSP0wh-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Appender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="160" width="140" height="60" as="geometry" />
+          <mxGeometry x="650" y="80" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7K3nJ44wm9ZJKXJSP0wh-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Layout&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="910" y="160" width="140" height="60" as="geometry" />
+          <mxGeometry x="800" y="80" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
