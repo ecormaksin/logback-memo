@@ -1,126 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T09:41:21.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qhxeNfoMDXyvVxbZq9Xl" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T04:28:35.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pzc4QgD-ls_OgNKGSmox" version="20.5.2" type="github">
   <diagram id="vHHTRy6oj6F_zs_hj-PX" name="architecture">
-    <mxGraphModel dx="813" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-19" value="&lt;h1&gt;Logbackのモジュール構成&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;container=0;align=left;verticalAlign=top;spacingTop=-20;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-19" value="&lt;h1&gt;Logbackのモジュール構成&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=5;container=0;align=left;verticalAlign=top;spacingTop=-20;" parent="1" vertex="1">
           <mxGeometry x="35" y="40" width="420" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-1" value="logback-core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-1" value="logback-core" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="260" width="200" height="40" as="geometry" />
         </mxCell>
         <object label="logback-classic" 備考="log4jの改善版に相当" id="7K3nJ44wm9ZJKXJSP0wh-2">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="200" y="140" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-3" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-2">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-3" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=0;" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="290" as="sourcePoint" />
             <mxPoint x="250" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <object label="logback-access" 備考="・・HTTPアクセスのログ機能を提供するために、サーブレット コンテナーと統合" id="7K3nJ44wm9ZJKXJSP0wh-5">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="320" y="140" width="100" height="40" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-6" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.801;entryY=-0.061;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" source="7K3nJ44wm9ZJKXJSP0wh-5" parent="1" target="7K3nJ44wm9ZJKXJSP0wh-1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-6" value="" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.801;entryY=-0.061;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-5" target="7K3nJ44wm9ZJKXJSP0wh-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="290" as="sourcePoint" />
             <mxPoint x="421" y="261" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-10" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-20" target="7K3nJ44wm9ZJKXJSP0wh-2">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-10" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-20" target="7K3nJ44wm9ZJKXJSP0wh-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="135" y="140" as="sourcePoint" />
             <mxPoint x="360" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-20" value="&lt;span style=&quot;&quot;&gt;ドキュメント上で&quot;logback&quot;という記述はこれを指す。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-20" value="&lt;span style=&quot;&quot;&gt;ドキュメント上で&quot;logback&quot;という記述はこれを指す。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-21" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;Logbackの主な構成クラス&lt;/h1&gt;&lt;p&gt;以下3つのクラスが協調して動作する。&lt;/p&gt;&lt;p&gt;メッセージのタイプとレベルに応じて記録できる。&lt;/p&gt;&lt;p&gt;実行時に形式と記録先が制御される。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-21" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;Logbackの主な構成クラス&lt;/h1&gt;&lt;p&gt;以下3つのクラスが協調して動作する。&lt;/p&gt;&lt;p&gt;メッセージのタイプとレベルに応じて記録できる。&lt;/p&gt;&lt;p&gt;実行時に形式と記録先が制御される。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="40" width="730" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-23" value="logback-classic" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-23" value="logback-classic" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;strokeColor=default;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="500" y="180" width="190" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LoggerContext&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LoggerContext&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="210" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-25" value="&lt;span style=&quot;&quot;&gt;汎用目的のため、loggerという概念を持たない。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-25" value="&lt;span style=&quot;&quot;&gt;汎用目的のため、loggerという概念を持たない。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-26" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-25" target="7K3nJ44wm9ZJKXJSP0wh-1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-26" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-25" target="7K3nJ44wm9ZJKXJSP0wh-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="290" as="sourcePoint" />
             <mxPoint x="190" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-27" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-27" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="860" y="180" width="330" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-24" value="logback-core" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="7K3nJ44wm9ZJKXJSP0wh-27">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-24" value="logback-core" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;strokeColor=default;fillColor=#FFFFFF;" parent="7K3nJ44wm9ZJKXJSP0wh-27" vertex="1">
           <mxGeometry width="330" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Appender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="7K3nJ44wm9ZJKXJSP0wh-27">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Appender&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" parent="7K3nJ44wm9ZJKXJSP0wh-27" vertex="1">
           <mxGeometry x="30" y="30" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Layout&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="7K3nJ44wm9ZJKXJSP0wh-27">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Layout&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" parent="7K3nJ44wm9ZJKXJSP0wh-27" vertex="1">
           <mxGeometry x="180" y="30" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Logger&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Logger&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="320" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-29" value="アタッチ" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-28" target="7K3nJ44wm9ZJKXJSP0wh-12">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-29" value="アタッチ" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-28" target="7K3nJ44wm9ZJKXJSP0wh-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="430" as="sourcePoint" />
             <mxPoint x="600" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-30" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-31" target="7K3nJ44wm9ZJKXJSP0wh-12">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-30" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-31" target="7K3nJ44wm9ZJKXJSP0wh-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="755" y="270" as="sourcePoint" />
             <mxPoint x="820" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-31" value="&lt;span style=&quot;&quot;&gt;loggerの生成・ツリー階層内でのloggerの整理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-31" value="&lt;span style=&quot;&quot;&gt;loggerの生成・ツリー階層内でのloggerの整理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="710" y="210" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-32" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" edge="1" source="7K3nJ44wm9ZJKXJSP0wh-33" parent="1" target="7K3nJ44wm9ZJKXJSP0wh-28">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-32" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-33" target="7K3nJ44wm9ZJKXJSP0wh-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="755" y="380" as="sourcePoint" />
             <mxPoint x="670" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-33" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;名前付けされたエンティティ&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;名前は大文字／小文字が区別される&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;階層構造の名前付けルールに従う&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=-20;spacingTop=-10;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-33" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;名前付けされたエンティティ&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;名前は大文字／小文字が区別される&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;階層構造の名前付けルールに従う&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=-20;spacingTop=-10;" parent="1" vertex="1">
           <mxGeometry x="710" y="315" width="270" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-34" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;logger階層構造の名前付け&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;パッケージ名の上位が親、下位が子&lt;/li&gt;&lt;li&gt;例&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;com.foo.Bar&quot;: &quot;com.foo&quot;の子&lt;/li&gt;&lt;li&gt;&quot;com.foo&quot;: &quot;com.foo.Bar&quot;の親&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-34" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;logger階層構造の名前付け&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;パッケージ名の上位が親、下位が子&lt;/li&gt;&lt;li&gt;例&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&quot;com.foo.Bar&quot;: &quot;com.foo&quot;の子&lt;/li&gt;&lt;li&gt;&quot;com.foo&quot;: &quot;com.foo.Bar&quot;の親&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="430" width="310" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-35" value="" style="endArrow=none;html=1;rounded=0;entryX=0.476;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-34" target="7K3nJ44wm9ZJKXJSP0wh-33">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-35" value="" style="endArrow=none;html=1;rounded=0;entryX=0.476;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-34" target="7K3nJ44wm9ZJKXJSP0wh-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="740" y="520" as="sourcePoint" />
             <mxPoint x="790" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-36" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;ログのレベル&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="600" width="280" height="200" as="geometry" />
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-36" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;ログのレベル&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;loggerにレベルが設定されていなかった場合は、より上位階層のloggerのレベルが適用される。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;最上位はroot（デフォルトのレベルはDEBUG）&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;spacingLeft=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="600" width="280" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-37" value="&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ch.qos.logback.classic.Level&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;TRACE&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;DEBUG&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;INFO&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;WARN&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ERROR&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=30;tabHeight=10;tabPosition=left;html=1;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="70" y="650" width="210" height="130" as="geometry" />
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-37" value="&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ch.qos.logback.classic.Level&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;TRACE&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;DEBUG&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;INFO&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;WARN&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;ERROR&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;&lt;/span&gt;" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=30;tabHeight=10;tabPosition=left;html=1;strokeColor=default;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="70" y="750" width="210" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-38" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.99;entryY=0.573;entryDx=0;entryDy=0;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-39" target="7K3nJ44wm9ZJKXJSP0wh-37">
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-38" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.99;entryY=0.573;entryDx=0;entryDy=0;endFill=1;entryPerimeter=0;" parent="1" source="7K3nJ44wm9ZJKXJSP0wh-39" target="7K3nJ44wm9ZJKXJSP0wh-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="515" y="735" as="sourcePoint" />
             <mxPoint x="430" y="705" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-39" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;finalでサブクラス化できない&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;より柔軟に制御するには Marker オブジェクトを使う&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=-15;spacingTop=-10;" vertex="1" parent="1">
-          <mxGeometry x="350" y="700" width="330" height="50" as="geometry" />
+        <mxCell id="7K3nJ44wm9ZJKXJSP0wh-39" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;finalでサブクラス化できない&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;より柔軟に制御するには Marker オブジェクトを使う&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=-15;spacingTop=-10;" parent="1" vertex="1">
+          <mxGeometry x="350" y="800" width="330" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
