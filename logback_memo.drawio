@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T08:31:52.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_97MxfKEgV26vzbHonWL" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T09:15:43.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1FCc_hO9815gBqrN0ncL" version="20.5.2" type="github" pages="2">
   <diagram id="vHHTRy6oj6F_zs_hj-PX" name="architecture">
     <mxGraphModel dx="1422" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -157,6 +157,20 @@
         </UserObject>
         <mxCell id="NOucHMqeKeS3LOSJW_I0-10" value="&lt;h3 style=&quot;padding-top: 0ex; background-color: rgb(255, 255, 255); font-family: Verdana, Arial, SunSans-Regular, sans-serif;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;A peek under the hood: ボンネットの中を除く＝内部について簡単に説明する？&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="410" y="1120" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NOucHMqeKeS3LOSJW_I0-11" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1 style=&quot;line-height: 100%;&quot;&gt;ロギング メソッド 呼出の詳細&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;spacingLeft=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1120" width="350" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JUVRpG-OPcNCUkhsislg" name="configuration">
+    <mxGraphModel dx="1422" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="30E8oMVcHkJz3RkxTcOp-1" value="カスタムのConfiguratorがある？" style="rhombus;html=1;fontSize=12;fontColor=#000000;align=left;labelPosition=right;verticalLabelPosition=middle;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
