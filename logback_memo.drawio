@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T04:49:11.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DrMjBRF6CtoT-KHM4sit" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T04:51:38.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qdtRYNNf4yzq3cxvoZ3_" version="20.5.2" type="github">
   <diagram id="vHHTRy6oj6F_zs_hj-PX" name="architecture">
-    <mxGraphModel dx="813" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,6 +141,9 @@
             <mxPoint x="1065" y="370" as="sourcePoint" />
             <mxPoint x="980" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NOucHMqeKeS3LOSJW_I0-6" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;Appenderの出力先&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;コンソール&lt;/li&gt;&lt;li&gt;ファイル&lt;/li&gt;&lt;li&gt;リモート ソケット サーバー&lt;/li&gt;&lt;li&gt;MySQL&lt;/li&gt;&lt;li&gt;PostgreSQL&lt;/li&gt;&lt;li&gt;Oracle&lt;/li&gt;&lt;li&gt;他のデータベース&lt;/li&gt;&lt;li&gt;JMS&lt;/li&gt;&lt;li&gt;リモート UNIX Syslog デーモン&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="910" width="280" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
