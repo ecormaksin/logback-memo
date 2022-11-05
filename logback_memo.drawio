@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T05:26:43.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UcU82ZsLLXgNaTohIXpM" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T05:39:26.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="U6T01_3orXvgYk7Dl93_" version="20.5.2" type="github">
   <diagram id="vHHTRy6oj6F_zs_hj-PX" name="architecture">
-    <mxGraphModel dx="677" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,6 +148,11 @@
         <UserObject label="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;Appenderの相加性(additivity)&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;あるlogger(L)の出力は、Lとその先祖のappenderすべてに向けられる。&lt;/li&gt;&lt;li&gt;しかし、Lより上位の別のlogger(P)の additivity flag が false の場合、P以下の(Lにとっては)先祖のappenderおよび、Lで設定されたappenderが、Lへ適用される。Pのより上位のappdenderはLへ適用されない。&lt;/li&gt;&lt;li&gt;logger の additivity flag はデフォルトでは true&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" link="https://logback.qos.ch/manual/architecture.html#additivity" id="NOucHMqeKeS3LOSJW_I0-8">
           <mxCell style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;spacingLeft=0;" vertex="1" parent="1">
             <mxGeometry x="630" y="910" width="360" height="190" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;パラメーター化されたロギング&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;出力文字列を + で連結するより、出力文字列の可変部分を {} としておき、可変引数に出力した方がパフォーマンスが良い。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" link="https://logback.qos.ch/manual/architecture.html#parametrized" id="NOucHMqeKeS3LOSJW_I0-9">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;spacingLeft=0;" vertex="1" parent="1">
+            <mxGeometry x="40" y="1120" width="360" height="120" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
