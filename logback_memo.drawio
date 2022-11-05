@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T04:36:00.225Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-OqN-2USylZDhtREFnwn" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T04:47:35.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7h48B5PbBPZ3LKgVsy07" version="20.5.2" type="github">
   <diagram id="vHHTRy6oj6F_zs_hj-PX" name="architecture">
-    <mxGraphModel dx="2031" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,6 +130,9 @@
             <mxGeometry x="730" y="660" width="767" height="196" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="NOucHMqeKeS3LOSJW_I0-3" value="&lt;p style=&quot;line-height: 0.8;&quot;&gt;&lt;/p&gt;&lt;h1&gt;loggerの取得&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;LoggerFactory#getLoggerの引数に同じ名前を指定した時に、戻り値のインスタンスは常に同じ。&lt;/li&gt;&lt;li&gt;引数にFQNとは異なる文字列を指定することもできるが、今のところのベスト プラクティスはFQNを指定すること。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=#FFFFFF;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="910" width="280" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
